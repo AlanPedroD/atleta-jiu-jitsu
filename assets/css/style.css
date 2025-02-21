@@ -220,6 +220,7 @@ article p{
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .card {
@@ -265,71 +266,19 @@ footer p{
   color: #374153;
   font-size: 14px;
 }
-.container-rodape{
-  display: flex;
-  color: #F9F9F9;
-  flex-direction: column;
-}
-.logo-e-copyright{
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 30px;
-}
-.copyright{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  font-size: 15px;
-  /* align-items: center; */
-}
-.informacoes-adicionais-rodape{
-  display: flex;
-  gap: 5px;
-}
-.informacoes-adicionais-rodape h4{
-  font-size: 18px;
-  margin-bottom: 18px;
-}
-.informacoes-adicionais-rodape p{
-  font-size: 15px;
-  margin-bottom: 19.5px;
-}
 
-.horarios{
-  display: flex;
-  flex-direction: column;
-}
-.item-texto-rodape{
-  flex: 1;
-}
-
-.container-redes-sociais{
-  display: flex;
-  padding: 20px;
-}
-.container-redes-sociais ul{
+footer .container-redes-sociais ul{
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
-  text-align: center;
-  margin: auto;
   gap: 30px;
+  padding: 0;
 }
-.container-redes-sociais ul li a i{
+footer .container-redes-sociais ul li a i{
   font-size: 40px;
   color: #f1ae56;
-}
-.container-redes-sociais ul li a i{
-  font-size: 40px;
-  color: #f1ae56;
-  transition: .5s;
-}
-.container-redes-sociais ul li a:hover i{
-  /* color: #9D2042; */
-  color: #7b1b1b;
-}
+}  
 
 
 
