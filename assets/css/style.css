@@ -188,16 +188,18 @@ td {
 }
 
 /*! História */
-article{
+.container-biografia{
   display: flex;
   justify-content: center;
   align-items: center;
+  
+  /* background-color: #f1ae56; */
 }
 
-article p{
-  max-width: 80%;
-  padding: 0 0 20px 44px;
+.container-biografia p{
+  margin-left: 44px;
   font-size: 18px;
+  line-height: 1.5;
 }
 
 
@@ -316,6 +318,11 @@ footer .container-redes-sociais ul li a i{
   .imagem-sobre {
     width: 100%;
     max-width: 100%;
+  }
+  .container-biografia p{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
   }
 }
 
