@@ -263,7 +263,8 @@ footer{
 }
 footer p{
   text-align: center;
-  color: #374153;
+  /* color:  #0E347E; */
+  color: #5D6D7E;
   font-size: 14px;
 }
 
